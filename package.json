@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "tsc && vite build --base=/timer/",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint src --ext .ts,.tsx"
   },
@@ -28,6 +30,7 @@
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.0.0",
     "eslint": "^8.22.0",
+    "gh-pages": "^4.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
   }

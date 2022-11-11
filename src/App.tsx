@@ -9,9 +9,11 @@ import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
 
 export function App() {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename={baseUrl}>
         <CyclesContextProvider>
           <Router />
         </CyclesContextProvider>
