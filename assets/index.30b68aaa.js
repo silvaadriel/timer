@@ -278,7 +278,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,l2="/assets/logo-ignite.3cfba1f7.svg";function u2(){return se(s2,{children:[C("img",{src:l2,alt:""}),se("nav",{children:[C(xf,{to:"/",title:"Timer",children:C(Mw,{size:24})}),C(xf,{to:"/history",title:"Hist\xF3rico",children:C(Tw,{size:24})})]})]})}const c2=st.div`
+`,l2="/timer/assets/logo-ignite.3cfba1f7.svg";function u2(){return se(s2,{children:[C("img",{src:l2,alt:""}),se("nav",{children:[C(xf,{to:"/",title:"Timer",children:C(Mw,{size:24})}),C(xf,{to:"/history",title:"Hist\xF3rico",children:C(Tw,{size:24})})]})]})}const c2=st.div`
   max-width: 74rem;
   height: calc(100vh - 10rem);
   margin: 5rem auto;
